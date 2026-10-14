@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planne</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>Planne</h1>
+        <p>Task manager</p>
+        <small>Small steps. Big goals!</small>
+      </div>
+      <button id="colorBtn">Change Colour</button>
+    </div>
+    <div class="input-box">
+      <input type="text" id="missionInput" placeholder="Enter a mission...">
+      <button id="addBtn">Add Mission</button>
+    </div>
+
+    <div class="counter-box">
+      <div class="card">
+        Total Missions: <span id="totalCount">0</span>
+      </div>
+      <div class="card">
+        Completed Missions: <span id="completedCount">0</span>
+      </div>
+      <div class="card">
+        Pending Missions: <span id="pendingCount">0</span>
+      </div>
+    </div>
+
+    <h3>My Missions</h3>
+    <ul id="missionList"></ul>
+    <p class="footer-text">Keep going! You're doing great!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
